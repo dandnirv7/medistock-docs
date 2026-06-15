@@ -1,0 +1,48 @@
+# Planning notes (local-only, multi-agent coordination)
+.planning/
+**/.planning/
+
+# Node / pnpm
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.local
+.env.*.local
+
+# Flutter
+medistock_mobile/.dart_tool/
+medistock_mobile/.flutter-plugins
+medistock_mobile/.flutter-plugins-dependencies
+medistock_mobile/.packages
+medistock_mobile/build/
+medistock_mobile/.idea/
+medistock_mobile/*.iml
+medistock_mobile/android/.gradle/
+medistock_mobile/android/local.properties
+medistock_mobile/android/app/release/
+medistock_mobile/ios/Pods/
+medistock_mobile/ios/Flutter/Flutter.framework
+medistock_mobile/ios/Flutter/Flutter.podspec
+medistock_mobile/.flutter-plugins
+medistock_mobile/.flutter-plugins-dependencies
+medistock_mobile/.idea/
+medistock_mobile/.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Prisma
+medistock-api/prisma/dev.db
+medistock-api/prisma/dev.db-journal
+
+# Misc
+*.tsbuildinfo
