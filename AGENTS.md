@@ -9,6 +9,8 @@ Detailed project docs live in [docs/](docs/) and [docs/README.md](docs/README.md
 - **Flutter (Dart)** — Mobile app, Android-first target. State management via GetX.
 - **Dio** — HTTP client for the Flutter app.
 - **flutter_secure_storage** — Token and credential storage on device.
+- **google_fonts** — App typography (Inter / Plus Jakarta Sans).
+- **lucide_icons** — Icon set for the Flutter app UI (approved for the `mobile-ui-polish` work).
 - **NestJS 11 (TypeScript)** — Backend framework, modules-based, vertical-slice per feature.
 - **Prisma** — ORM for PostgreSQL.
 - **Passport + JWT** — Authentication.
@@ -257,7 +259,7 @@ Hook `commit-msg` validasi Conventional Commits format. Hook `pre-commit` jalank
 - **Vertical slice (per-repo)**: implement 1 unit logis per slice — bisa 1 endpoint (api), 1 screen (mobile), atau 1 fix. **Bukan** full DB→API→mobile dalam 1 slice (butuh kontrak stabil dulu di fase multi-agent).
 - **End-to-end integration**: Fase 2 (lihat `.planning/ORCHESTRATION.md` di root docs-repo) setelah slice 0+1 semua repo hijau.
 - **Doc-first**: if a code change requires contradicting a doc, update the doc first, then the code.
-- **No new deps**: do not add dependencies, libraries, or services beyond what is listed in `docs/`.
+- **No new deps**: do not add dependencies, libraries, or services beyond what is listed in `docs/` or in the Tech Stack section above. `lucide_icons` is an approved dependency for the `mobile-ui-polish` work.
 - **No commits without explicit user request.**
 
 ## Gotchas
