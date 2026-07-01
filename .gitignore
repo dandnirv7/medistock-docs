@@ -1,6 +1,8 @@
 # Planning notes (local-only, multi-agent coordination)
 .planning/
 **/.planning/
+.kiro
+planning/
 
 # Node / pnpm
 node_modules/
